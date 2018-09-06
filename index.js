@@ -9,5 +9,11 @@ function theBeatlesPlay(mus, ins){
 }
 
 function johnLennonFacts(arr){
-  
+  var count = 0;
+  var facts = "!!!";
+  while(count < arr.length){
+    arr[count] = arr[count]+facts;
+    count++
+  }
+  return arr;
 }
